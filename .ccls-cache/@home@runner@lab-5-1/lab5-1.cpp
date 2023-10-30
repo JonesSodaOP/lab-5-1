@@ -21,7 +21,7 @@ cin >> num1;
   cout << "Please enter another integer" << endl;
   cin >> num2;
 cout << "num1 = " << num1 << " and num2 = " << num2 << endl;
-if (num1 == num2) {
+if (num1 == num2) { //Curly brackets needed to not throw a syntax error
   cout << "The values are the same." << endl;
   cout << "Hey, that’s a coincidence!" << endl;
 } else   
